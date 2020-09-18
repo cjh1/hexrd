@@ -24,7 +24,7 @@ requirements:
   run:
     - python {{PY_VER}}
     - h5py
-      #    - lmfit
+    - lmfit==1.0.0
     - numba
     - numpy
     - psutil
